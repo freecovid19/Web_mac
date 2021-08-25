@@ -3,13 +3,36 @@
     margin: 250px auto 50px auto;
 }
 
-body {
-    background-color: #000;
-}
-
-progress {
+#boot-progress {
     display: block;
     margin: 0px auto;
     width: 300px;
     vertical-align: middle;
+}
+
+.booting {display: none;}
+
+.top_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FBFBFB;
+    font-size: 20px;
+    color: #000;
+    z-index: 1;
+    height: 42px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 70px;
+}
+
+.menu li {
+    padding: 0px 18px;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000;
 }

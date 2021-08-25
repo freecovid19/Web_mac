@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +9,43 @@
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Mac">
-    <meta property="og:description" content="웹에서 Mac을 느껴보세요!">
+    <meta property="og:description" content="Experience your Mac on the web!">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/apple_logo(favicon).png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    
     <title>Mac</title>
 </head>
 <body>
-    <header>
-        <!-- 대충 상단바 만드는곳 -->
-    </header>
+    <script type="text/javascript" src="js/webMac.js"></script>
 
-    <section>
+    <div class="booting">
         <img src="img/apple_logo.png" alt="apple_logo" class="boot-img">
-        <progress value="50" max="100"></progress>
-    </section>
+        <progress value="1" max="100" id="boot-progress"></progress>
+    </div>
+    
+    <header>
+        <script src="https://kit.fontawesome.com/f5fb244e89.js" crossorigin="anonymous"></script>
+        <nav class="top_bar">
+            <div class="left-bar">
+                <i class="fab fa-apple" style="margin-left: 20px;"></i>
+                <!-- <p style="margin-left: 50px;">Finder</p> -->
+                <ul class="menu">
+                    <li>File</li>
+                    <li>Edit</li>
+                    <li>View</li>
+                    <li>Go</li>
+                    <li>Window</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <i class="fas fa-flag-usa" style="margin-right: 300px;" id="right-flag"></i>
+        </nav>
+    </header>
+    <img src="img/wallpaper.png" alt="wallpaper" id="wallpaper">
 </body>
 </html>
