@@ -12,11 +12,37 @@
 
 .booting {display: none;}
 
-
-
 body {
     overflow: hidden;
-    background-color: #000;
+    margin: 0;
+    /* background-color: #000; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CBD5DE;
+    padding: 0px 15px;
+    color: #000;
+}
+
+.navbar_logo {
+    padding-right: 0;
+}
+
+.navbar_menu {
+    display: flex;
+    padding-left: 0;
+    padding: 5px;
+}
+
+.navbar_menu li {
+    padding: 0px 12px;
 }
 
 #wallpaper {
