@@ -45,6 +45,11 @@ a {
     padding: 0px 12px;
 }
 
+.navbar_menu li:hover {
+    background-color: #F0F1F2;
+    border-radius: 2px;
+}
+
 #wallpaper {
     height: 1200px;
 }
