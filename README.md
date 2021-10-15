@@ -1,6 +1,8 @@
 # Web_macOS
 It based on macOS Big Sur.
 
+https://freecovid19.github.io/Web_mac
+
 ## Development Logs
 it works on 2021/08/24.
 
